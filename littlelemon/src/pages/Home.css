@@ -1,0 +1,88 @@
+
+#hero {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/public/restaurant_inside.jpg');
+    background-size: cover;
+    background-position: 75%;
+    color: white;
+    min-height: 200px;
+    text-align: center;
+    border-radius: 16px;
+  }
+  
+  #hero p {
+    font-size: 2rem;
+    margin:0;
+    text-shadow: 2px 2px 4px #333333;
+    color: white;
+  }
+  
+  .cta { 
+    display: inline-block; 
+    color: #495E57;
+    background-color: #F4CE14;
+    width: 200px; 
+    font-weight: bold; 
+    font-size: 1.5rem;
+    padding: 8px; 
+    border: 3px solid #F4CE14; 
+    border-radius: 16px;
+    text-align: center; 
+    outline: none; 
+    text-decoration: none; 
+    margin: 1rem;
+  } 
+  
+  .cta:hover {
+    color:#fff;
+    background:#495E57;
+    border: 3px solid #495E57; 
+  }
+  
+  .heading-shadow {
+    text-shadow: 1px 1px 4px #333333;
+  }
+
+#cards {
+    display: flex;
+}
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%;
+    margin-right: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: white;
+    border-radius: 16px;
+  }
+  
+  .card img{
+    /* Add shadows to create the "card" effect */
+    width: 100%;
+  }
+  .card h2 {
+    padding: 5px;
+    font-size: 18;
+    font-weight: bold;
+    color: #495E57;
+  }
+  .card p {
+    padding: 5px;
+    font-size: 16;
+    color: #495E57;
+  }
+
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+  h2 {
+    color: white;
+    font-family: "Markazi Text";
+  }

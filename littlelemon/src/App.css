@@ -1,3 +1,60 @@
+body {
+  margin: 10px;
+}
+.heading {
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+#navigation {
+  margin-left: auto;
+}
+.links {
+  color: #495E57;
+  display: inline;
+  text-decoration: none;
+  padding-left: 15px;
+}
+.links a {
+  text-decoration: none;
+  color: #495E57;
+  font-family: "Markazi Text";
+  font-size: 40px;
+}
+.links a:hover {
+  color: #F4CE14;
+}
+
+main {
+  margin-left: -10px;
+  margin-right: -10px;
+  background-color: #495E57;
+  margin-bottom: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+h1 {
+  font-family: "Markazi Text";
+  font-size: 64px;
+  color: white;
+} 
+
+h2, h3, h4, h5, h6, p {
+  font-family: "Markazi Text";
+  color: #495E57;
+}
+
+#footer {
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+#copyright {
+  margin-left: auto;
+  font-size: 24px;
+}
+
 .App {
   text-align: center;
 }

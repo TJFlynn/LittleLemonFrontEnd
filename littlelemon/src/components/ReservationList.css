@@ -1,0 +1,11 @@
+#reservation_list {
+    background-color: #edefee;
+    border-radius: 16px;
+}
+
+li {
+    color: #495E57;
+    font-family: "Markazi Text";
+    font-size: 20px;
+    font-weight: bold;
+}
